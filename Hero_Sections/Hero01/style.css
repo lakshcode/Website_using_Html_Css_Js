@@ -1,0 +1,234 @@
+:root{
+     --dark-grey: #1f1534;
+     --grey: #7d7989;
+     --black: #000;
+     --white: #fff;
+     --green:#033E3E;
+    }
+
+    *,
+    *::before,
+    *::after{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+  
+    }
+
+    body{
+        font-family:sans-serif;
+        height: 100vh;
+        
+    }
+
+    .wrapper{
+        max-width: 1600px;
+        /* margin: 0 auto; */
+        padding: 25px 74px;
+        height: 90%;
+        box-sizing: border-box;        
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        align-content: center;
+    }
+
+    .left-header{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        width: 50%;
+        justify-content: space-between;
+    }
+
+    .logo{
+        width: 160px;
+        height: 40px;
+    }
+    .nav-items{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-items li{
+        list-style: none;
+    }
+    .nav .nav-items li a{
+        font-size: 18px;
+        line-height: 23px;
+        color: black;
+        text-decoration: none;
+        opacity: 1;
+        margin: 5px 20px;
+
+
+    }
+    .nav-items li a.active{
+        font-weight: bold;
+        opacity: 1;
+    }
+    .element{
+        position: absolute;
+        top: 160px;
+        left: 0;
+        width: 132px;
+        height: 115px;
+
+
+    }
+
+    /*Hero Container*/
+
+    .hero-container{
+        display: flex;
+        margin-top: 80px;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .hero-container .left{
+        left: 0;
+    }
+    
+    .hero-container .left h1{    
+        font-weight: 700;
+        font-family: 'Inter', sans-serif;
+        /* font-style: normal; */
+        font-Size: 3.5vw;
+        color: 000000;
+    }
+
+    .hero-container .left p{
+        font-weight: 700;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-Size: 1.2vw;
+        color: 000000;
+    }
+
+    .btn{
+        display: flex;
+        text-decoration: none;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12.6889px 9.51667px;
+        position: relative;
+        width: 114.99px;
+        height: 45.2px;
+        left: 0;
+        /* top: 388.6px; */
+        background: #033E3E;
+        border: 0.793056px solid #000000;
+        box-sizing: border-box;
+        border-radius: 4.75833px;
+        color: white;
+        bottom: 0px;
+    }
+footer img{
+    width: 90%;
+    /* bottom: 0; */
+    display: block;
+    /* position: relative; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: auto;
+    /* left: 100px;*/
+}
+
+.img-2{
+    width: 100%;
+}
+
+
+
+
+
+
+.toggle-button{
+    position: absolute;
+    /* top: 2.25rem; */
+    right: 5rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 4vw;
+    height: 3vw;
+
+}
+
+.toggle-button .bar{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    border-radius: 50px;
+}
+
+#btn-resp{
+    display: none;
+}
+
+
+@media (max-width:900px){
+    .toggle-button{
+        display: flex;
+    }
+    .nav-items{
+        display: none;
+        position: absolute;
+        background-color: #93d6d6;
+        opacity: 0.5;
+    }
+    .btn{
+        display: none;
+    }
+    .left-header{
+        flex-direction: column;
+        align-items: flex-start;
+        display: unset;
+        width: 100%;
+    }
+    .nav ul , .nav{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-items li{
+        text-align: center;
+    }
+    .nav-items li a{
+        padding: .5rem 1rem;
+    }
+    .nav-items.active{
+        display: flex;
+    }
+
+
+    .rigth{
+        width: 60vw;
+    }
+    .wrapper{
+        padding: 25px 50px ;
+    }
+    .hero-container .left{
+        width: 100%;
+        text-align: center;
+    }
+    .hero-container .left h1{
+        font-size: 5.5vw;
+    }
+    .hero-container .left p{
+        margin: 2vw auto;
+        font-size: 2.2vw;
+    }
+    .hero-container{
+        flex-wrap: wrap;
+    }
+
+    #btn-resp{
+        display: flex;
+    }
+       
+}
