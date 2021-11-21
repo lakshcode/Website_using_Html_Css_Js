@@ -51,6 +51,6 @@ Please note that Open Source Design has a [Contributor Code of Conduct](https://
 
 ## 📜 License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) © Dezenix
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) © RanaWat Tech
 
 ![thankyou]()
