@@ -6,5 +6,5 @@
 ![preview-hero_03](https://github.com/RanawatTech/Website_using_Html_Css_Js/blob/main/Hero_Sections/Hero01/HERO01.png)
 
 
-<h1>HERO01 MOBILE</h1>
+<h1 align="left">HERO01 MOBILE</h1>
 ![preview-hero_03](https://github.com/RanawatTech/Website_using_Html_Css_Js/blob/main/Hero_Sections/Hero01/HERO01_MOB.png)
