@@ -7,8 +7,8 @@
 <img
 src=“https://github.com/RanawatTech/Website_using_Html_Css_Js/blob/main/Hero_Sections/Hero01/HERO01.png”
 raw=true
-alt=“Subject Pronouns”
-style=“margin-right: 10px;”
+alt=“Hero01_desktop Pronouns”
+style=“margin-right: 10px; width: 500px;”
 />
 
 <h1 align="left">Preview Hero 01 Mobile</h1>
